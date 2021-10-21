@@ -1,9 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router";
 import Nav from "../components/Nav";
-import Row from "../components/Row";
 import Home from "./Home";
-import requests from "../api/requests";
 
 import "./css/Details.css";
 function Details() {
