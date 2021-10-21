@@ -10,14 +10,13 @@ function Row({ title, fetchURL, categorie }) {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
     async function fetchData() {
-      console.log("categorie", categorie);
+      console.log("fetchURL", fetchURL);
       const request = await axios.post(fetchURL, {
         limit: 10,
         pageNumber: 0,
         filterByCategory: categorie,
       });
 
-      console.log(request.data);
       //   https://picsum.photos/300/200"
       const moviesAux = [];
       request.data.forEach((element, index) => {

@@ -2,7 +2,8 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./screens/Home";
 import Details from "./screens/Details";
-
+import dotenv from "dotenv";
+dotenv.config();
 function App() {
   return (
     <div className="app">
