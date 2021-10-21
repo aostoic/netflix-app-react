@@ -1,10 +1,6 @@
-# :fire:Netflix Clone Using React.JS:NodeJs
+# Netflix Clone Using React.JS:NodeJs
 
-<!-- <img src="https://i.ibb.co/cw6xq4Z/image.png"/> -->
-
-<!-- ### Try It Out : https://brave-wright-8cace2.netlify.app/ -->
-
-## Features :fire:
+## Features
 
 - Navbar which change its color when scroll<br>
 - Random Netflix series in the banner when refresh<br>
