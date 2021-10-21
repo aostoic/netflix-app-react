@@ -1,8 +1,8 @@
-# :fire:Netflix Clone Using React.JS:fire:
+# :fire:Netflix Clone Using React.JS:NodeJs
 
-<img src="https://i.ibb.co/cw6xq4Z/image.png"/>
+<!-- <img src="https://i.ibb.co/cw6xq4Z/image.png"/> -->
 
-### Try It Out : https://brave-wright-8cace2.netlify.app/
+<!-- ### Try It Out : https://brave-wright-8cace2.netlify.app/ -->
 
 ## Features :fire:
 
