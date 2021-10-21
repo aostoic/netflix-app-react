@@ -5,8 +5,11 @@ import requests from "../api/requests";
 // import Banner from "../components/Banner";
 import Nav from "../components/Nav";
 import Row from "../components/Row";
+import Button from "react-bootstrap/Button";
+
 function RowParent() {
   const [categories, setCategories] = useState([]);
+
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(requests.fetchCategories);
@@ -25,7 +28,7 @@ function RowParent() {
       <br></br>
       <Nav />
       {/* <Banner /> */}
-
+      <Button variant="primary">Primary</Button>{" "}
       {categories.map((categorie, index) => (
         <Row
           title={categorie}

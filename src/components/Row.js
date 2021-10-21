@@ -46,6 +46,8 @@ function Row({ title, fetchURL, categorie }) {
             alt={movie.name}
           />
         ))}
+
+        <button></button>
       </div>
     </div>
   );

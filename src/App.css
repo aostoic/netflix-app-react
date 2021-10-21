@@ -4,3 +4,9 @@
 .app {
   background-color: #111;
 }
+
+.Icon {
+  font-size: 18.5px;
+  cursor: pointer;
+  color: white;
+}
