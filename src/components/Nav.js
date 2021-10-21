@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router";
 import "./css/Nav.css";
+import {
+  Navbar,
+  Container,
+  NavDropdown,
+  Form,
+  FormControl,
+  Button,
+} from "react-bootstrap";
 import Icon from "./Icon";
 
 function Nav() {
@@ -19,13 +27,26 @@ function Nav() {
   //     };
   //   }, []);
   return (
+    // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    //   <Container>
+    //     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+
+    //     <Nav>
+    //       <Nav.Link href="#deets">More deets</Nav.Link>
+    //       <Nav.Link eventKey={2} href="#memes">
+    //         Dank memes
+    //       </Nav.Link>
+    //     </Nav>
+    //   </Container>
+    // </Navbar>
+
     <div className={`nav ${show && "nav_black"}`}>
       {/* <img
-        // onClick={() => history.push("/")} // go to profile
-        className="nav_avatar"
-        src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
-        alt="avatar"
-      /> */}
+          // onClick={() => history.push("/")} // go to profile
+          className="nav_avatar"
+          src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
+          alt="avatar"
+        /> */}
 
       <ul>
         <li>
