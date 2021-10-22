@@ -8,6 +8,7 @@ let random = 1;
 function Row({ title, fetchURL, categorie }) {
   const history = useHistory();
   const [movies, setMovies] = useState([]);
+
   useEffect(() => {
     async function fetchData() {
       console.log("fetchURL", fetchURL);
@@ -27,7 +28,6 @@ function Row({ title, fetchURL, categorie }) {
         random += index;
       });
       setMovies(moviesAux);
-      console.log(moviesAux);
       return request;
     }
     fetchData();
@@ -46,8 +46,6 @@ function Row({ title, fetchURL, categorie }) {
             alt={movie.name}
           />
         ))}
-
-        <button></button>
       </div>
     </div>
   );
