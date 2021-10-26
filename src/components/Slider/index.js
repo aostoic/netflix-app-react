@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import SelectedItem from "../SelectedItem";
 import SliderItem from "../SliderItem";
 import SliderContext from "./context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -118,14 +117,6 @@ function Slider({ mainTitle, data, poster }) {
             ) : null}
           </div>
         </div>
-
-        {currentSlide && (
-          <SelectedItem
-            currentSlide={currentSlide}
-            additionalMovieInfo={additionalMovieInfo}
-            closeInformationWindow={closeInformationWindow}
-          />
-        )}
       </div>
     </SliderContext.Provider>
   );

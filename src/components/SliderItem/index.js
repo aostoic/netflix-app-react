@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect, useContext } from "react";
-import genresList from "../../genres";
 import SliderContext from "../Slider/context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

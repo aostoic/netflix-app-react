@@ -12,9 +12,9 @@ const Search = () => {
 
   const fetchData = useCallback(async () => {
     return await searchMoviesBy(context.searchInput, null).then((response) => {
-      setMovies(response.data.results);
-      setPage(response.data.page);
-      setTotalPages(response.data.total_pages);
+      setMovies([]);
+      setPage(1);
+      setTotalPages(1);
     });
   }, [context]);
 
@@ -29,8 +29,8 @@ const Search = () => {
       if (movies) {
         let loadedMovies = movies.concat(response.data.results);
 
-        setMovies(loadedMovies);
-        setPage(response.data.page);
+        setMovies([]);
+        setPage(1);
       }
     });
   };
@@ -68,7 +68,7 @@ const Search = () => {
               ) : null}
             </React.Fragment>
           ) : (
-            <div className="not-found">No results :/ </div>
+            <div className="not-found">No results </div>
           )}
         </React.Fragment>
       ) : (
