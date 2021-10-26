@@ -1,25 +1,29 @@
-# Netflix Clone Using React.JS:NodeJs
+# React netflix
+
+Netflix slider and searchbar, recreated using react with hooks, powered by [Movie Database API](https://www.themoviedb.org/?language=en-US).
+[Demo link](https://zygiss22.github.io/react-netflix/)
 
 ## Features
 
-- Navbar which change its color when scroll<br>
-- Random Netflix series in the banner when refresh<br>
-- Carousel of movies coming from the API<br>
-- Click the movie to see the description,complete title and more!<br>
 
-## Tech Stack
 
-:clapper: **Front-end** React <br>
-:clapper: **Back-end** api nodejs<br>
+ - Slide movies Left,Right or Reset to zero.
+ - Expand on hover exactly the same as in netflix respecting edges.
+ - Small index element with current slide row.
+ - On slide item click, show additional information.
+ - show genres, cast or similar movies.
+ - Poster style slider
+ - Search bar for movies using css grid.
+ - Load more button in search screen
 
-# Author
 
-👤 **Andro Ostoic**
 
-- Github: https://github.com/aostoicm
-- Linkedin: https://www.linkedin.com/in/aostoic/
-- Email: androstoic@gmail.com
 
-# Show Your Support
+### General information
 
-Give a ⭐️ if you like this project!
+This is a small project created to learn a little bit about react hooks, the mayority of the css is taken from netflix's website using web devtools.
+
+There might be things broken in other web browsers, tested only on firefox.
+
+
+
