@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API = process.env.REACT_APP_TMDB_API;
-const urlNetflix = `https://netflix-api-example.herokuapp.com`;
+const urlNetflix = process.env.REACT_APP_URLBACKEND;
 
 const ulrRandomImg = "https://picsum.photos/400/250";
 let random = 1;
